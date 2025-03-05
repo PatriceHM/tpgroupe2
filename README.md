@@ -1,4 +1,3 @@
-# tpgroupe2
 projet examen "Gestionnaire de tâche"
 ## Membres du groupe ET LEUR NOM DE GITHUB;
 - 1 AMANIO PARIO ISAAC ([gradi243](https://github.com/gradi243))
