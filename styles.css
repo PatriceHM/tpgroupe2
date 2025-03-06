@@ -37,14 +37,14 @@ button {
     padding: 10px 15px;
     font-size: 16px;
     color: white;
-    background-color: #28a745;
+    background-color: #080898;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #214f88;
 }
 table {
     width: 100%;
