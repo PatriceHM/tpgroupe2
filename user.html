@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER</title>
+</head>
+<body>
+   <div class="row p-3">
+        <div class="col-lg-4 mx-4">
+        <div class="card border-3 mt-4  ">
+    <div class="card-header">
+      <h3>ajouter un utilisateur</h3>
+    </div>
+    <div class="card-body p-3 ">
+        <form action="" method="post">
+          
+              <label for="" class="form-label mt-3">nom :</label> <br>
+              <input type="text" class="form-control" name="nom" placeholder="entrer votre nom" required >
+           
+           
+              <label for="" class="form-label mt-3">post nom :</label> <br>
+              <input type="text" class="form-control" name="post_nom" placeholder="entrer votre post_nom" required >
+
+           
+              <label for="" class="form-label mt-3">username :</label> <br>
+              <input type="email" class="form-control" name="user" placeholder="entrer votre nom d'utilisateur" required >
+ 
+
+                  <label for="" class="form-label">fonction :</label>
+                  <select class="form-select form-select-lg" name="fonction" id="">
+                    <option disabled selected></option>
+                    <option>Comptable</option>
+                    <option>Secretaire</option>
+                    <option>Apparitaire</option>
+                    <option>Recteur</option>
+
+                  </select>
+                </div>
+            <div class="col-lg-12 row offset-3">
+              <div class="col-lg-3 mx-2 ">
+                <button type="submit" name="aj_utilisateur" class="btn btn-success  ">ENREGISTRER</button>
+              </div>
+              <div class="col-lg-3 ">
+              <div class="col-lg-3 mx-2">
+                  <button type="" name="rest" class="btn btn-danger ">ANNULER</button>
+              </div>
+            </div>
+        </form>
+
+    </div>
+   </div>
+   </div>
+   
+      
+   </div>
+    
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
