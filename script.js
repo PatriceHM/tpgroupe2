@@ -47,14 +47,14 @@ function loadTasks() {
 
         // Bouton "Marquer comme terminée"
         const completeBtn = document.createElement("button");
-        completeBtn.textContent = "✔";
+        completeBtn.textContent = " confirmer ✔";
         completeBtn.classList.add("action-btn", "complete-btn");
         completeBtn.addEventListener("click", () => toggleTask(index));
         actionsCell.appendChild(completeBtn);
 
   // Bouton "Supprimer"
   const deleteBtn = document.createElement("button");
-  deleteBtn.textContent = "❌";
+  deleteBtn.textContent = "supremer ❌";
   deleteBtn.classList.add("action-btn", "delete-btn");
   deleteBtn.addEventListener("click", () => deleteTask(index));
   actionsCell.appendChild(deleteBtn);
